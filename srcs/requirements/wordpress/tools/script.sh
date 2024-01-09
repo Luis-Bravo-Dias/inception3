@@ -2,7 +2,6 @@
 
 sleep 5
 
-# Download do wordpress para o /var/www/html
 if [ ! -f "/var/www/html/wp-config.php" ]; then
 	if cd /var/www/html && wp core download --allow-root
 
