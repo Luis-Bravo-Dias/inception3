@@ -13,5 +13,3 @@ RUN mysql_install_db
 EXPOSE 3306
 
 ENTRYPOINT [ "/home/script.sh" ]
-
-#CMD [ "mysqld", "--bind-address=0.0.0.0" ]
